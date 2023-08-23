@@ -6,7 +6,7 @@ efficient for large amount of data.
 1) Data is generated randomly by defining a system of n-nonlinear equations.
 2) Not just an arbitrary sparse, a special tridiagonal sparse structure is used to create the network.
 3) Custom tridiagonal layers are created from scratch to build the network.
-4) After generating the model, Jacobian matrices are calculated for each layer to perform the Newton step..
+4) After generating the model, Jacobian matrices are calculated for each layer to perform the Newton step.
 5) Thomas algorithm is used to invert the Jacobian matrices of each layer.
 6) The run time is calculated for this operation in each layer and compared it with the traditional method
    of computing Newton step.
